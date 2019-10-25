@@ -10,6 +10,7 @@ body {
     padding: 30px 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(73, 73, 73);
+    overflow-x: hidden;
 }
 #main {
     background: #EEE;
@@ -44,6 +45,7 @@ body {
 #tribute-info {
     max-width: 700px;
     margin: auto;
+    padding: 0 30px;
 }
 h3 {
     padding: 50px 0;
@@ -53,4 +55,16 @@ ul li {
     list-style-position: inside;
     line-height: 2rem;
     text-align: left;
+}
+#tribute-link {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(92, 23, 23);
+    display: inline-block;
+}
+/* styles for small screens */
+@media screen and (max-width: 630px){
+    #img-div {
+        padding: 20px 10% 0;
+    }
 }
