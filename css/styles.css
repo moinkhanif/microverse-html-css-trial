@@ -6,6 +6,10 @@
 body {
     text-align: center; 
     background: #FFFFFF;
+    padding: 30px 10px;
+}
+#main {
+    background: #EEE;
 }
 #image {
     max-width : 100%;
@@ -14,8 +18,8 @@ body {
 }
 
 #img-div{
-    
+    background: #FFF;
     margin: 0 auto;
-    max-width: 60%;
-   
+    max-width: 80%;
+   padding: 20px;
 }
