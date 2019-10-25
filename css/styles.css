@@ -65,6 +65,6 @@ ul li {
 /* styles for small screens */
 @media screen and (max-width: 630px){
     #img-div {
-        padding: 20px 10% 0;
+        padding: 20px 5% 0;
     }
 }
