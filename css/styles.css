@@ -27,6 +27,8 @@ body {
     max-width : 100%;
     height: auto;
     display: block;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 #img-div{
@@ -64,6 +66,9 @@ ul li {
 }
 /* styles for small screens */
 @media screen and (max-width: 630px){
+    #title {
+        font-size: 2rem;
+    }
     #img-div {
         padding: 20px 5% 0;
     }
